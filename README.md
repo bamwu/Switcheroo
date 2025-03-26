@@ -2,7 +2,7 @@
 
 This project is to demonstrate a problem with trying to package multiple builds for different cpu architectures in the same macOS .app bundle.
 
-We are attempting to place the entire x64 and arm64 build folders inside the MacOS folder in the bundle and then use a script as a stand-in for the actual exectuable to detect the architecture and launch the actual, cpu-specific executable in the appropriate subfolder.
+We are attempting to place the entire x64 and arm64 build folders inside the MacOS folder in the bundle and then use a script as a stand-in for the actual executable to detect the architecture and launch the actual, cpu-specific executable in the appropriate subfolder.
 
 When launched directly from the terminal -- /path/to/Switcheroo/Publish/Switcheroo.app/Contents/MacOS/Switcheroo -- it runs fine.
 
