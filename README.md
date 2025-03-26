@@ -10,8 +10,8 @@ It displays 2 things: the architecture and a message from a file on your desktop
 
 Same thing for skipping the script entirely...
 
-/path/to/Switcheroo/Publish/Switcheroo.app/Contents/MacOS/Switcheroo/arm64/Switcheroo
-/path/to/Switcheroo/Publish/Switcheroo.app/Contents/MacOS/Switcheroo/x64/Switcheroo
+/path/to/Switcheroo/Publish/Switcheroo.app/Contents/MacOS/arm64/Switcheroo
+/path/to/Switcheroo/Publish/Switcheroo.app/Contents/MacOS/x64/Switcheroo
 
 However, when double-clicked in the finder, an exception is thrown when the app tries to read that file.
 
