@@ -35,4 +35,4 @@ or
 
 It doesn't matter which, since the issue happens either way.
 
-So, the big question is: why am I getting 
+So, the big questions are: why am I getting this error when we launch the app in this manner and what can we do to get this working?
