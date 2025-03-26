@@ -8,9 +8,14 @@ When launched directly from the terminal -- /path/to/Switcheroo/Publish/Switcher
 
 It displays 2 things: the architecture and a message from a file on your desktop called switcheroo-message.txt.
 
+Same thing for skipping the script entirely...
+
+/path/to/Switcheroo/Publish/Switcheroo.app/Contents/MacOS/Switcheroo/arm64/Switcheroo
+/path/to/Switcheroo/Publish/Switcheroo.app/Contents/MacOS/Switcheroo/x64/Switcheroo
+
 However, when double-clicked in the finder, an exception is thrown when the app tries to read that file.
 
-I catch the exception and just show its name in the app window, but this is the full message:
+I catch the exception and show only its name in the app window, but this is the full message:
 
 "System.UnauthorizedAccessException: Access to the path '/Users/myuser/Desktop/switcheroo-message.txt' is denied"
 
