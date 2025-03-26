@@ -8,7 +8,7 @@ When launched directly from the terminal -- /path/to/Switcheroo/Publish/Switcher
 
 It displays 2 things: the architecture and a message from a file on your desktop called switcheroo-message.txt.
 
-Howver, when double-clicked in the finder, an exception is thrown when the app tries to read that file.
+However, when double-clicked in the finder, an exception is thrown when the app tries to read that file.
 
 This project is managed in Rider, but I don't think that matters for the purposes of this test.
 
