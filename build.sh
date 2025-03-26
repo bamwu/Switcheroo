@@ -108,4 +108,9 @@ if [ "$MACOS" = true ]; then
 	
 	touch "$Bundle"
 	
+	SwitcherooMessagePath="$(echo ~)/Desktop/switcheroo-message.txt"
+
+	if [ ! -f "$SwitcherooMessagePath" ]; then
+	    echo "HOWDY!" > "$SwitcherooMessagePath"
+	fi	
 fi
